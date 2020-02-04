@@ -3,7 +3,7 @@
 namespace Oneup\UploaderBundle\Event;
 
 use Oneup\UploaderBundle\Uploader\Response\ResponseInterface;
-use Symfony\Component\EventDispatcher\Event;
+use Symfony\Contracts\EventDispatcher\Event;
 use Symfony\Component\HttpFoundation\Request;
 
 class PostUploadEvent extends Event
